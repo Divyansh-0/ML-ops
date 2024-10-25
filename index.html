@@ -3,9 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ML ops 1</title>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="new">This is the first day at ML lab.</div>
+    <form action="" class="form-data" id="registrationForm">
+      <div class="slab">
+        <label for="roll"
+          >Roll No. <input type="number" name="roll" id="roll"
+        /></label>
+      </div>
+      <div class="slab">
+        <label for="name"
+          >Name <input type="text" name="name" id="name"
+        /></label>
+      </div>
+      <div class="slab">
+        <label for="department"
+          >Department <input type="text" name="department" id="department"
+        /></label>
+      </div>
+      <div class="slab">
+        <label for="phone"
+          >Phone Number <input type="number" name="phone" id="phone"
+        /></label>
+      </div>
+      <div class="slab">
+        <label for="email"
+          >Email <input type="email" name="email" id="email"
+        /></label>
+      </div>
+      <div class="slab">
+        <label for="username"
+          >Username <input type="text" name="username" id="username"
+        /></label>
+      </div>
+      <div class="slab">
+        <label for="password"
+          >Password <input type="password" name="password" id="password"
+        /></label>
+      </div>
+      <button type="button" onclick="storeData()">Submit</button>
+    </form>
+    <script src="index.js"></script>
   </body>
 </html>
